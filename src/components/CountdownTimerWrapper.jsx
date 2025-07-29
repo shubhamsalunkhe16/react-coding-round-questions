@@ -59,7 +59,7 @@ const CountdownTimerWrapper = () => {
   return (
     <div>
       <h2 style={{ textAlign: "center" }}>Countdown Example</h2>
-      <CountdownTimer initialSeconds={1.5 * 60} /> {/* 5 minutes */}
+      <CountdownTimer initialSeconds={2 * 60} /> {/* 2 minutes */}
     </div>
   );
 };
